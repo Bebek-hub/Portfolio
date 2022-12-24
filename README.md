@@ -1,4 +1,4 @@
 # Portfolio
 
--- My first attempt of creating a portfolio
--- With the use of HTML and CSS
+-- This is an ongoing project because I update it frequently.
+--  It contains what you can know about me.
