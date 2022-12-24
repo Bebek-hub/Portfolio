@@ -99,6 +99,15 @@ a {
     display: none;
 }
 
+.hire {
+    color: var(--custom1-color);
+    text-decoration: none;
+}
+
+.hire:hover {
+    color: var(--custom-color);
+}
+
 .header-text-wrapper {
     padding: 9rem 1.5rem 10rem;
     text-align: center;
@@ -319,7 +328,7 @@ footer {
     margin: 0 0.6rem;
 }
 
-.fa {
+.fa-brands, .fa-solid {
     color: var(--custom1-color);
 }
 

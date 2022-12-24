@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>God'sFavour Omoare</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/Portfolio.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -31,7 +31,9 @@
             </nav>
 
             <div class="header-button">
-                <button class="button">Hire Me</button>
+            <a href="#hire-form" class="hire">
+                <button class="button"> Hire Me</button>
+            </a>
             </div>
         </div>
 
@@ -82,6 +84,10 @@
                                 <li class="works-text">I am capable of designing a full functional website for your company or yourself like this one</li>
                             </ul>
                         </div>
+                        <div class="works-button">
+                            <a href="http://www.github.com/bebek-hub" 
+                            class="button works-butn" >My works</a>
+                        </div>
                     </div>
                 </div>
 
@@ -113,7 +119,9 @@
                         </div>
 
                         <div class="works-button">
-                            <a href="https://bit.ly/Getaccesstome" class="button works-butn >Contact Me</a>
+                            <a 
+                            href="https://bit.ly/Getaccesstome" 
+                            class="button works-butn" >Contact Me</a>
                             <a href="https://drive.google.com/file/d/1E__ORFxp_XnSvOlKtVSRAKbtj39nKL71/view?usp=drivesdk" class="button works-butn">My CV</a>
                         </div>
                     </div>
@@ -196,7 +204,7 @@
             </div>
         </section>
 
-        <section  class="contact">
+        <section  class="contact" id="hire-form">
             <h2 class="main-h2">Contact Me</h2>
             <p class="works-text contact-p">Feel free to reach out to me for booking, hiring or freelance (gig).</p>
 
@@ -209,11 +217,11 @@
                     </div>
                     <input type="text" name="subject" placeholder="Subject" class="form-input">
                     <textarea name="" cols="30" rows="10" placeholder="Message" class="form-input"></textarea>
-                </form>
-            </div>
 
-            <div class="works-button">
-                <button class="button works-butn">SEND</button>
+                    <div class="works-button">
+                        <button class="button works-butn" onclick="window.location.href = 'mailto:godsfavouromoare@gmail.com';">SEND</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
@@ -222,27 +230,27 @@
         <div class="footer-social">
             <div class="footer-img">
                 <a href="https://medium.com/@omoaregodsfavour">
-                    <i class="fa fa-medium"></i>
+                    <i class="fa-brands fa-medium"></i>
                 </a>
             </div>
             <div class="footer-img">
                 <a href="http://www.twitter.com/godomoare">
-                    <i class="fas fa-twitter"></i>
+                    <i class="fa-brands fa-twitter"></i>
                     </a>
             </div>
             <div class="footer-img">
                 <a href="https://www.instagram.com/godsfavour002">
-                    <i class="fa fa-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
             <div class="footer-img">
                 <a href="https://www.linkedin.com/in/omoaregodsfavour">
-                    <i class="fa fa-linkedin"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
             <div class="footer-img">
-                <a href="godsfavouromoare@gmail.com">
-                    <i class="fa fa-envelope"></i>
+                <a href="mailto:godsfavouromoare@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
                 </a>
             </div>
         </div>
